@@ -1,17 +1,23 @@
-div#title_container{
-    text-align: center;
-    padding-top: 20px;
-}
 div.card_container{
     padding-top: 35px;
     padding-left: 10%;
     padding-right: 10%;
+}
+button.btn.btn-primary.card_btn{
+    height: 20px;
+}
+div#title_container{
+    text-align: center;
+    padding-top: 20px;
 }
 div#cards{
     padding-left: 2%;
     padding-right: 2%;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
+}
+div#accordion{
+float: inline-start;
 }
 div#section_container{
     display: -webkit-flex;
