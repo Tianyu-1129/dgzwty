@@ -1,10 +1,29 @@
+div.card-title.h5{
+    font-size: 1.5vw;
+}
+div.card-subtitle.text-gray{
+    font-size: 1.2vw;
+}
+div.card-body{
+    font-size: 1.2vw;
+}
+div.card-footer{
+    font-size: 1.2vw;
+}
 div.card_container{
-    padding-top: 35px;
+    padding-top: 55px;
     padding-left: 10%;
     padding-right: 10%;
+    height:35vw;
+}
+div.card{
+    height:28.3vw;
+    box-shadow: 2px 1px 2px #999999;
 }
 button.btn.btn-primary.card_btn{
-    height: 20px;
+    height: 1.5vw;
+    padding: 0;
+    font-size: 1.2vw;
 }
 div#title_container{
     text-align: center;
@@ -27,10 +46,18 @@ div#section_container{
     padding-left: 30px;
 }
 div#section_URL{
--webkit-flex: 1;
-flex: 7; 
+    -webkit-flex: 1;
+    flex: 7; 
 }
 div#section_search{
     -webkit-flex: 2;
     flex: 2; 
+}
+div#video1_container{
+    width: 100%;
+    /* padding-left: 20%;
+    padding-right: 20%; */
+}
+video{
+    width: 100%;
 }
