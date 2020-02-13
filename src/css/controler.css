@@ -1,3 +1,7 @@
+div#title_container{
+    text-align: center;
+    padding-top: 20px;
+}
 div.card_container{
     padding-top: 35px;
     padding-left: 10%;
@@ -23,29 +27,4 @@ flex: 7;
 div#section_search{
     -webkit-flex: 2;
     flex: 2; 
-    }
-/* div#card_1{
-    width: 100%;
-    -webkit-flex: 1;
-    flex: 1; 
-    }
-div#card_2{
-    width: 100%;
-    -webkit-flex: 2;
-    flex: 1; 
-    }
-div#card_3{
-    width: 100%;
-    -webkit-flex: 3;
-    flex: 1; 
-    }
-div#card_4{
-    width: 100%;
-    -webkit-flex: 4;
-    flex: 1; 
-    }
-div#card_5{
-    width: 100%;
-    -webkit-flex: 5;
-    flex: 1; 
-    } */
+}
