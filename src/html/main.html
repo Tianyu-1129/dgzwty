@@ -13,9 +13,9 @@
     <div id="section_container">
         <div id="section_URL">
             <section class="navbar-section">
-                <a href="..." class="navbar-brand mr-2">Spectre.css</a>
-                <a href="..." class="btn btn-link">Docs</a>
-                <a href="..." class="btn btn-link">GitHub</a>
+                <a href="" class="navbar-brand mr-2">Toi et moi</a>
+                <a href="https://github.com/suancaiyu1806" class="btn btn-link">Suancaiyu</a>
+                <a href="https://github.com/Tianyu-1129" class="btn btn-link">Tianyu-1129</a>
             </section>
         </div>
         <div id="section_search">
@@ -28,15 +28,25 @@
         </div>
     </div>
     <li class="divider"></li>
+
+    <div id="music-container">
+        <img src="../images/icons-nomusic.png" class="img-responsive" id="music" onmousemove="hands(this)"
+            onclick="startstop(this)">
+        <audio src="../music/background.mp3" autoplay id="musicplayer">
+            Your browser does not support the <code>audio</code> element.
+        </audio>
+    </div>
+
     <div id="title_container">
 
-        <h1 id="mainTitle">Title is here.</h1>
+        <h1 id="mainTitle">Toi et moi</h1>
         <p><samp>Our details.</samp></p>
     </div>
 </head>
 <!-- ===================================================================================================================== -->
 
 <body>
+
     <div id="cards">
 
         <div class="card_container">
@@ -45,13 +55,12 @@
                     <div id="video1_container">
                         <video id="video1" controls>
                             <source src="../videos/cat_in_the_sun.mp4" type="video/mp4">
-                            项目视频
                         </video>
                     </div>
                 </div>
                 <div class="card-header">
-                    <div class="card-title h5">...</div>
-                    <div class="card-subtitle text-gray">...</div>
+                    <div class="card-title h5">Cat</div>
+                    <div class="card-subtitle text-gray">Our pets.</div>
                 </div>
                 <div class="card-body">
                     ...
@@ -65,8 +74,8 @@
         <div class="card_container">
             <div class="card" id="card_2" onmousemove="bulge(this)" onmouseout="normalImg(this)">
                 <div class="card-header">
-                    <div class="card-title h5">...</div>
-                    <div class="card-subtitle text-gray">...</div>
+                    <div class="card-title h5">Tea</div>
+                    <div class="card-subtitle text-gray">Learn together.</div>
                 </div>
                 <div class="card-image">
                     <img src="../images/shuyi.jpg" class="img-responsive" id="images_library">
@@ -91,8 +100,8 @@
         <div class="card_container">
             <div class="card" id="card_4" onmousemove="bulge(this)" onmouseout="normalImg(this)">
                 <div class="card-header">
-                    <div class="card-title h5">...</div>
-                    <div class="card-subtitle text-gray">...</div>
+                    <div class="card-title h5">Headset</div>
+                    <div class="card-subtitle text-gray">Hear the world together.</div>
                 </div>
                 <div class="card-image">
                     <img src="../images/edifier.jpg" class="img-responsive" id="images_library">
@@ -117,8 +126,8 @@
         <div class="card_container">
             <div class="card" id="card_6" onmousemove="bulge(this)" onmouseout="normalImg(this)">
                 <div class="card-header">
-                    <div class="card-title h5">...</div>
-                    <div class="card-subtitle text-gray">...</div>
+                    <div class="card-title h5">Library</div>
+                    <div class="card-subtitle text-gray">Study together.</div>
                 </div>
                 <div class="card-image">
                     <img src="../images/library.jpg" class="img-responsive" id="images_library">
@@ -135,8 +144,8 @@
         <div class="card_container">
             <div class="card" id="card_7" onmousemove="bulge(this)" onmouseout="normalImg(this)">
                 <div class="card-header">
-                    <div class="card-title h5">...</div>
-                    <div class="card-subtitle text-gray">...</div>
+                    <div class="card-title h5">Aimer</div>
+                    <div class="card-subtitle text-gray">Finger heart.</div>
                 </div>
                 <div class="card-image">
                     <div id="video1_container">
@@ -161,8 +170,8 @@
                     <img src="../images/ticket.jpg" class="img-responsive" id="images_library">
                 </div>
                 <div class="card-header">
-                    <div class="card-title h5">...</div>
-                    <div class="card-subtitle text-gray">...</div>
+                    <div class="card-title h5">Ticket</div>
+                    <div class="card-subtitle text-gray">Watch films together.</div>
                 </div>
                 <div class="card-body">
                     ...
